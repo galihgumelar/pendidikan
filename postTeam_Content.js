@@ -293,7 +293,7 @@ J=o.substring(5,7);
 t=o.substring(8,10);
 f=k.MonthNames[parseInt(J,10)-1];
 u='<a class="morelink" href="'+q+'">Read More »</a>';
-s+='<li class="uj_slider_item"><div class="slider_img"><a title="'+q+'" class="" href="'+p+'"><img src="'+K+'"/></a></div><div class="slider_caption"><h3><a href="'+p+'">'+q+"</a></h3><p> Posted by "+l+"</p>"+r+" <p>"+u+"</p></div></li>"
+s+='<li class="uj_slider_item"><div class="slider_img"><a title="'+q+'" class="" href="'+p+'"><img src="'+K+'"/></a></div><div class="slider_caption"><h3><a href="'+p+'">'+q+"</a></h3><p> By "+l+"</p>"+r+" <p>"+u+"</p></div></li>"
 }e.find("ul.slides").append(s);
 if(!k.RandompostActive){b(k.idcontaint+" .uj_slider_wrap").flexslider({animation:"fade",controlNav:true,animationLoop:true,smoothHeight:true,pauseOnHover:true,mousewheel:false});
 e.removeClass(k.loadingClass)
