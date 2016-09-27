@@ -174,7 +174,7 @@ y=N.substring(0,4);
 z=N.substring(5,7);
 I=N.substring(8,10);
 A=e.MonthNames[parseInt(z,10)-1];
-F='<div class="uj_thumb"><a title="'+H+'" class=" " href="'+E+'"><img src="'+C+'"/><span class="uj-vid"></span></a><span class="nb_slide_icon"><span class="inside"><span class="avatar"><img src="'+x+'"/></span><span class="author">Written by <strong>'+G+"</strong></span></span></span></div>";
+F='<div class="uj_thumb"><a title="'+H+'" class=" " href="'+E+'"><img src="'+C+'"/><span class="uj-vid"></span></a><span class="nb_slide_icon"><span class="inside"><span class="avatar"><img src="'+x+'"/></span><span class="author">By <strong>'+G+"</strong></span></span></span></div>";
 j='<a class="more-link" href="'+E+'">Read More</a>';
 g+='<li><div class="inner-content" >'+F+'<h3><a href="'+E+'">'+H+'</a></h3><span class="post-meta"><span class="comt"><i class="icon-comments"></i>'+d+' comment</span>  <span class="dd"> <i class="icon-time"></i> '+I+'</span> <span class="dm">'+A+'</span> <span class="dy">'+y+' - </span> <span class="auth"> <i class="icon-user"></i>'+G+"</span></span>"+K+" "+j+"</div></li>"
 }a("ul",f).append(g);
