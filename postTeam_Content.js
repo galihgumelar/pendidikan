@@ -174,7 +174,7 @@ y=N.substring(0,4);
 z=N.substring(5,7);
 I=N.substring(8,10);
 A=e.MonthNames[parseInt(z,10)-1];
-F='<div class="uj_thumb"><a title="'+H+'" class=" " href="'+E+'"><img src="'+C+'"/><span class="uj-vid"></span></a><span class="nb_slide_icon"><span class="inside"><span class="avatar"><img src="'+x+'"/></span><span class="author">Written by <strong>'+G+"</strong></span></span></span></div>";
+F='<div class="uj_thumb"><a title="'+H+'" class=" " href="'+E+'"><img src="'+C+'"/><span class="uj-vid"></span></a><span class="nb_slide_icon"><span class="inside"><span class="avatar"><img src="'+x+'"/></span><span class="PendidikanBekam">Written by <strong>'+G+"</strong></span></span></span></div>";
 j='<a class="more-link" href="'+E+'">Read More</a>';
 g+='<li><div class="inner-content" >'+F+'<h3><a href="'+E+'">'+H+'</a></h3><span class="post-meta"><span class="comt"><i class="icon-comments"></i>'+d+' comment</span>  <span class="dd"> <i class="icon-time"></i> '+I+'</span> <span class="dm">'+A+'</span> <span class="dy">'+y+' - </span> <span class="auth"> <i class="icon-user"></i>'+G+"</span></span>"+K+" "+j+"</div></li>"
 }a("ul",f).append(g);
@@ -292,7 +292,7 @@ h=o.substring(0,4);
 J=o.substring(5,7);
 t=o.substring(8,10);
 f=k.MonthNames[parseInt(J,10)-1];
-u='<a class="morelink" href="'+q+'">Read More »</a>';
+u='<a class="morelink" href="'+q+'">Read More Â»</a>';
 s+='<li class="uj_slider_item"><div class="slider_img"><a title="'+q+'" class="" href="'+p+'"><img src="'+K+'"/></a></div><div class="slider_caption"><h3><a href="'+p+'">'+q+"</a></h3><p> Posted by "+l+"</p>"+r+" <p>"+u+"</p></div></li>"
 }e.find("ul.slides").append(s);
 if(!k.RandompostActive){b(k.idcontaint+" .uj_slider_wrap").flexslider({animation:"fade",controlNav:true,animationLoop:true,smoothHeight:true,pauseOnHover:true,mousewheel:false});
