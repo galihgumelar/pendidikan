@@ -212,7 +212,7 @@ x=L.substring(0,4);
 y=L.substring(5,7);
 G=L.substring(8,10);
 z=e.MonthNames[parseInt(y,10)-1];
-F='<div class="uj_thumb"><a title="'+H+" - Posted by "+A+'" class="thumblab" href="'+E+'"><img src="'+C+'"/></a></div>';
+F='<div class="uj_thumb"><a title="'+H+" - By "PendidikanBekam.com'" class="thumblab" href="'+E+'"><img src="'+C+'"/></a></div>';
 g+='<li><div class="inner-content" >'+F+"</div></li>"
 }a("ul",f).append(g);
 if(e.animated){a("ul",f).addClass("scroll-item");
