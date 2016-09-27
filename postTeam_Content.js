@@ -212,7 +212,7 @@ x=L.substring(0,4);
 y=L.substring(5,7);
 G=L.substring(8,10);
 z=e.MonthNames[parseInt(y,10)-1];
-F='<div class="uj_thumb"><a title="'+H+" - Posted by "+A+'" class="thumblab" href="'+E+'"><img src="'+C+'"/></a></div>';
+F='<div class="uj_thumb"><a title="'+H+" - By "+A+'" class="thumblab" href="'+E+'"><img src="'+C+'"/></a></div>';
 g+='<li><div class="inner-content" >'+F+"</div></li>"
 }a("ul",f).append(g);
 if(e.animated){a("ul",f).addClass("scroll-item");
@@ -292,7 +292,7 @@ h=o.substring(0,4);
 J=o.substring(5,7);
 t=o.substring(8,10);
 f=k.MonthNames[parseInt(J,10)-1];
-u='<a class="morelink" href="'+q+'">Read More »</a>';
+u='<a class="morelink" href="'+q+'">Read More Â»</a>';
 s+='<li class="uj_slider_item"><div class="slider_img"><a title="'+q+'" class="" href="'+p+'"><img src="'+K+'"/></a></div><div class="slider_caption"><h3><a href="'+p+'">'+q+"</a></h3><p> Posted by "+l+"</p>"+r+" <p>"+u+"</p></div></li>"
 }e.find("ul.slides").append(s);
 if(!k.RandompostActive){b(k.idcontaint+" .uj_slider_wrap").flexslider({animation:"fade",controlNav:true,animationLoop:true,smoothHeight:true,pauseOnHover:true,mousewheel:false});
